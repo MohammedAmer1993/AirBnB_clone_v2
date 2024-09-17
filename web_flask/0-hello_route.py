@@ -1,14 +1,12 @@
 #!/usr/bin/python3
 
-from flask import Flask, render_template, url_for, flash, redirect
-from flask_sqlalchemy import SQLAlchemy
-from forms import RegistrationForm, LoginForm
+from flask import Flask, render_template
 app = Flask(__name__)
 
 
 @app.route("/airbnb-onepage/")
 def func():
-    return render_template("")
+    return render_template("hello, world")
 
 
 if __name__ == "__main__":
