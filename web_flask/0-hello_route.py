@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/airbnb-onepage/")
 def func():
-    return render_template("hello, world")
+    return ("Hello HBNB!ubuntu")
 
 
 if __name__ == "__main__":
