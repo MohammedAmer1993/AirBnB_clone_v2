@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/airbnb-onepage/")
 def func():
-    return ("Hello HBNB!ubuntu")
+    return ("Hello HBNB!")
 
 
 if __name__ == "__main__":
